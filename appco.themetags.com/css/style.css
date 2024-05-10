@@ -2024,7 +2024,7 @@ span.sub-title {
 .background-img {
   position: relative;
   width: 100%;
-  height: 640px;
+  min-height: 620px;
   display: block;
   z-index: 1;
 }
@@ -2050,7 +2050,7 @@ span.sub-title {
 .background-image {
   position: relative;
   width: 100%;
-  height: 400px;
+  height: 300px;
   display: block;
   z-index: 1;
 }
@@ -2312,11 +2312,11 @@ span.sub-title {
 }
 
 .screenshot-frame {
-  background-image: url(../image/fream.png);
+  background-image: url(../image/frame.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   display: block;
-  width: 520px;
+  width: 450px;
   height: 360px;
   position: absolute;
   top: -68px;
@@ -2326,6 +2326,13 @@ span.sub-title {
   z-index: 2;
   border-radius: 40px;
 }
+
+@media screen and (max-width: 1200px) {
+  .screenshot-frame {
+    width: auto;
+  }
+}
+
 @media (min-width: 320px) and (max-width: 1200px) {
   .hero-animation-img {
     display: none;
