@@ -2024,7 +2024,7 @@ span.sub-title {
 .background-img {
   position: relative;
   width: 100%;
-  min-height: 620px;
+  min-height: 670px;
   display: block;
   z-index: 1;
 }
@@ -2316,7 +2316,7 @@ span.sub-title {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   display: block;
-  width: 450px;
+  width: 520px;
   height: 360px;
   position: absolute;
   top: -68px;
@@ -2725,6 +2725,7 @@ span.sub-title {
   height: 100%;
   top: 0;
   left: 0;
+  z-index: -1;
 }
 
 .page-footer {
